@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/colorPrimaryDark"
+
+    >
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Download Data File from Database"
+        android:textAllCaps="false"
+        android:background="@color/colorPrimary"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:layout_alignParentTop="true"
+        android:id="@+id/download"/>
+    <com.mancj.materialsearchbar.MaterialSearchBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/download"
+        android:id="@+id/materialSearchBarName"
+        app:mt_speechMode="false"
+        android:layout_marginTop="10dp"
+        app:mt_hint="Enter list name ...">
+
+
+
+    </com.mancj.materialsearchbar.MaterialSearchBar>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listToDo"
+        android:layout_below="@id/materialSearchBarName"
+        android:background="@android:color/transparent"
+        ></android.support.v7.widget.RecyclerView>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:backgroundTint="@color/colorAccent"
+        app:srcCompat= "@drawable/ic_exposure_plus_1_black_24dp"
+        tools:ignore="VectorDrawableCompat" />
+</RelativeLayout>

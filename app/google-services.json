@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "368548492009",
+    "firebase_url": "https://taskhuawei.firebaseio.com",
+    "project_id": "taskhuawei",
+    "storage_bucket": "taskhuawei.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:368548492009:android:ab758e36fb78dd01893678",
+        "android_client_info": {
+          "package_name": "huawei.task"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "368548492009-q6qqmbi4lv2svc73ufejecqfktqn1ff6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwqIpknvrG63-eFwpgGUCgmAvIu1wX8lc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "368548492009-q6qqmbi4lv2svc73ufejecqfktqn1ff6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
